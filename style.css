@@ -1,0 +1,158 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.map{
+    position:relative;
+    z-index:1;
+}
+
+.map_img{
+    width:40em;
+    height:50em;
+    position:relative;
+    z-index:1;
+    opacity:0.4;
+}
+
+.map_state{
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:3;
+    pointer-events:none;
+    width:5em;
+}
+
+.map_state:hover .state path{
+    fill:green;  
+}
+
+.state path {
+    pointer-events:auto;
+    
+}
+
+.map_embed{
+    width:100%;
+    height:auto;
+}
+
+.map_state.valle-d-aosta{
+    width: 3.8em;
+    top: 5.1em;
+    left: 0.5em;
+}
+.map_state.piemonte{
+    width: 8.3em;
+    top: 2.9em;
+    left: 0em;
+}
+.map_state.liguria{
+    width: 8.4em;
+    top: 11em;
+    left: 2.68em;
+}
+.map_state.lombardia{
+    width: 9.5em;
+    top: 2.05em;
+    left: 5.95em;
+}
+.map_state.trentino-alto-adige{
+    width: 6.7em;
+    top: 0em;
+    left: 12.1em;
+}
+.map_state.veneto{
+    width: 7.85em;
+    top: 2em;
+    left: 12.9em;
+}
+.map_state.friuli-venezia-giulia{
+    width: 5.2em;
+    top: 2.1em;
+    left: 18.2em;
+}
+.map_state.emilia-romagna{
+    width: 11.3em;
+    top: 9em;
+    left: 8.3em;
+}
+.map_state.toscana{
+    width: 8.65em;
+    top: 12em;
+    left: 9.77em;
+}
+.map_state.umbria{
+    width: 4.44em;
+    top: 15.8em;
+    left: 16.85em;
+}
+.map_state.marche{
+    width: 5.55em;
+    top: 14.25em;
+    left: 17.8em;
+}
+.map_state.lazio{
+    width: 8.4em;
+    top: 19.2em;
+    left: 15.4em;
+}
+.map_state.abruzzo{
+    width: 5.7em;
+    top: 18.95em;
+    left: 20.5em;
+}
+.map_state.molise{
+    width: 4em;
+    top: 22.5em;
+    left: 23.4em;
+}
+.map_state.campania{
+    width: 6.55em;
+    top: 24.95em;
+    left: 22.87em;
+}
+.map_state.puglia{
+    width: 11.5em;
+    top: 23.05em;
+    left: 26.6em;
+}
+.map_state.basilicata{
+    width: 4.9em;
+    top: 26.55em;
+    left: 27.87em;
+}
+.map_state.calabria{
+    width: 5.1em;
+    top: 30.65em;
+    left: 28.85em;
+}
+.map_state.sicilia{
+    width: 11.9em;
+    top: 36.2em;
+    left: 17em;
+}
+.map_state.sardegna{
+    width: 5.5em;
+    top: 25.85em;
+    left: 4.8em;
+}
+.map_state.corsica{
+    width: 3.3em;
+    top: 18.45em;
+    left: 6.1em;
+}
+.map_state.san-marino{
+    width: 0.38em;
+    top: 13.65em;
+    left: 18.47em;
+}
+.map_state.malta{
+    width: 1.25em;
+    top: 47.19em;
+    left: 24.25em
+}
+
